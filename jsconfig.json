@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+       "target": "es2017",
+       "allowSyntheticDefaultImports": false,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"]
+       }
+    },
+    "exclude": ["node_modules", "dist"]
+  }
+
+// 选项	描述
+// noLib	不包括默认库文件（lib.d.ts）
+// target	指定要使用的默认库（lib.d.ts）。值: es3, es5, es6,es2015,es2016, es2017, es2018, es2019,es2020,esnext
+// module	生成模块代码时指定模块系统。值: amd, commonJS, es2015, es6, esnext, none, system, umd
+// moduleResolution	指定如何解析模块以进行导入。值:node,classic
+// checkJs	对JavaScript文件启用类型检查。
+// experimentalDecorators	为建议的ES装饰器提供实验支持。
+// allowSyntheticDefaultImports	允许从模块进行 default import 而没有 default export 。这不影响代码发出，仅影响类型检查。 只起到检查的作用，不会对编译后的代码有任何影响
+// baseUrl	基本目录，用于解析非相对模块名称。
+// paths	指定要相对于baseUrl选项计算的路径映射。
